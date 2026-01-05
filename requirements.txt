@@ -1,0 +1,4 @@
+requests
+pillow
+colorthief
+python-dotenv
