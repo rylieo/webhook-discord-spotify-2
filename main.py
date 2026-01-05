@@ -320,7 +320,7 @@ def process_track(data: Dict[str, Any]) -> None:
                     "color": embed_color,
                     "author": {
                         "name": f"Now playing - {profile['name']}",
-                        "url": profile["url"],
+                        "url": f"https://www.last.fm/user/{LASTFM_USERNAME}",
                         "icon_url": profile["avatar"],
                     },
                     "title": track_name,
