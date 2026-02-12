@@ -323,7 +323,7 @@ def process_track(data: Dict[str, Any]) -> None:
                         "url": f"https://www.last.fm/user/{LASTFM_USERNAME}",
                         "icon_url": profile["avatar"],
                     },
-                    "title": track_name,
+                    "title": f"**{track_name}**",
                     "url": track_url,
                     "description": f"**{artist_name}** • *{album_name}*",
                     "thumbnail": {"url": album_art},
